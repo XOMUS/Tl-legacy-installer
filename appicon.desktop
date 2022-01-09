@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=TL
+Exec=java -jar "/home/$(whoami)/.tlauncher/TL.jar
+Icon=/home/$(whoami)/.tlauncher/icon.png
+Type=Application
+Categories=Game;
