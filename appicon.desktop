@@ -13,13 +13,13 @@ Name=Minecraft
 Comment=3D Game
 
 # The path to the folder in which the executable is run
-Path=/home/ildar/.tlauncher
+Path=/home/$(whoami)/.tlauncher
 
 # The executable of the application, possibly with arguments.
 Exec=java -jar TL.jar
 
 # The name of the icon that will be used to display this entry
-Icon=/home/ildar/.tlauncher/icon.png
+Icon=/home/$(whoami)/.tlauncher/icon.png
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
